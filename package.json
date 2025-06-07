@@ -1,0 +1,27 @@
+{
+  "name": "poker-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for tracking home poker games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wczernenko/poker-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wczernenko/poker-bot/issues"
+  },
+  "homepage": "https://github.com/wczernenko/poker-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "prisma": "^6.9.0",
+    "sqlite3": "^5.1.7"
+  }
+}
